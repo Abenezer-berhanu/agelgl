@@ -1,5 +1,8 @@
 import CommingSoon from "@/components/CommingSoon";
+import LandingPage from "@/components/landing/LandingPage";
+
+const isPublic = true;
 
 export default function Home() {
-  return <CommingSoon />;
+  return isPublic ? <LandingPage /> : <CommingSoon />;
 }
