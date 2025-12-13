@@ -1,8 +1,7 @@
-import CommingSoon from "@/components/CommingSoon";
-import LandingPage from "@/components/landing/LandingPage";
+import React from "react";
 
-const isPublic = true;
-
-export default function Home() {
-  return isPublic ? <LandingPage /> : <CommingSoon />;
+function page() {
+  return <div>page</div>;
 }
+
+export default page;

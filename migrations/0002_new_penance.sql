@@ -1,1 +1,0 @@
-ALTER TABLE "FreeGameUser" ADD COLUMN "status" "HotelStatus" DEFAULT 'ACTIVE';
