@@ -24,6 +24,7 @@ export const socialMediaLinks = [
 export const images = {
   logo: "/logo.png",
   landingPageLogo: "/logo_landing.png",
+  services: "/services.png",
 };
 
 export const companyInfo = {

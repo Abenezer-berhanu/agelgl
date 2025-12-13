@@ -9,7 +9,7 @@ function Logo() {
         alt={companyInfo.name}
         width={200}
         height={200}
-        className="mx-auto object-contain max-h-[70px]"
+        className="w-fit object-contain max-h-[70px]"
       />
     </div>
   );
