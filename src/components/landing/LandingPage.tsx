@@ -40,7 +40,7 @@ function LandingPage() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="text-3xl leading-snug sm:text-5xl md:text-6xl whitespace-pre-line max-w-[1000px] mx-auto text-center my-5"
+            className="text-3xl tracking-wider leading-snug sm:text-5xl md:text-6xl font-semibold whitespace-pre-line max-w-[1100px] mx-auto text-center my-5"
           >
             We build Software that performs <br />
             <span className="flex justify-center flex-wrap">

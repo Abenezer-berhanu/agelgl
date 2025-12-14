@@ -1,10 +1,11 @@
+import AboutUs from "@/components/about/AboutUs";
+import CurvedLoop from "@/components/CurvedLoop";
 import LandingPage from "@/components/landing/LandingPage";
 import { keywords } from "@/lib/exporter";
-import React from "react";
 
 function page() {
   return (
-    <div>
+    <div className="mb-10">
       <nav className="sr-only">
         <ul>
           {keywords.map((keyword) => (
@@ -18,6 +19,12 @@ function page() {
         Solutions | Web app Developer | App developer | Website Developer |{" "}
       </h1>
       <LandingPage />
+      <div className="relative"></div>
+      <CurvedLoop
+        className=""
+        marqueeText="Agelgl Digital Solutions ✦ Website ✦ Mobile App ✦ Graphics Design ✦ UI/UX ✦ API ✦ Maintenance ✦"
+      />
+      <AboutUs />
     </div>
   );
 }
