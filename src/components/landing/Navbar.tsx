@@ -8,6 +8,7 @@ import { ChevronDown, Menu, X } from "lucide-react"; // Import Menu and X icons
 import { images, navbarLinks } from "@/lib/exporter";
 import Logo from "../Logo";
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 // --- Utility Component for Mobile Accordion (handles nested links) ---
 
@@ -269,13 +270,13 @@ const Header = () => {
           )}
 
           {/* Mobile Menu Toggle Button - Visible only on mobile */}
-          <button
+          <Button
             onClick={toggleMenu}
             aria-label="Toggle mobile menu"
-            className="md:hidden p-2 rounded-lg text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
+            className="md:hidden"
           >
             <Menu className="h-6 w-6" />
-          </button>
+          </Button>
         </div>
       </div>
 

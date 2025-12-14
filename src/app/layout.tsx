@@ -11,9 +11,10 @@ const jostSemibold = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Agelgl Digital solutions - Web, Mobile, Design & Branding services",
+  title:
+    "Agelgl Digital solutions - Website Development | App Development | Software Solutions | Software Agency in Ethiopia | Software Development Ethiopia | Best Software Company | Fast Website Developer",
   description:
-    "Agelgl Digital Solutions empowers businesses with web, mobile, design & branding services — fueling growth through smart innovation",
+    "Agelgl Digital Solutions empowers businesses with website, mobile, design & branding services — fueling growth through smart innovation",
   openGraph: {
     images: ["./opengraph-image.jpg"],
   },
