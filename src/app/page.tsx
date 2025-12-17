@@ -1,6 +1,7 @@
 import AboutUs from "@/components/about/AboutUs";
 import CurvedLoop from "@/components/CurvedLoop";
 import LandingPage from "@/components/landing/LandingPage";
+import OurServices from "@/components/services/OurServices";
 import { Timeline } from "@/components/ui/timeline";
 import { implementationStepsData, keywords } from "@/lib/exporter";
 
@@ -17,7 +18,18 @@ function page() {
       <h1 className="sr-only">
         Software Agency in Ethiopia | Software Development Ethiopia | Software
         Team | Website Development | App Development | Agency | Software
-        Solutions | Web app Developer | App developer | Website Developer |{" "}
+        Solutions | Web app Developer | App developer | Website Developer | IT
+        Solutions | Software Company Ethiopia | Software Development Company
+        Ethiopia | Software Development Firm Ethiopia | Software Development
+        Services Ethiopia | Custom Software Development Ethiopia | Software
+        Consulting Ethiopia | IT Consulting Ethiopia | Digital Transformation
+        Ethiopia | Technology Solutions Ethiopia | Software Engineering Ethiopia
+        | Agile Software Development Ethiopia | Full-Stack Development Ethiopia
+        | Mobile App Development Ethiopia | Web Development Ethiopia |
+        Enterprise Software Ethiopia | Cloud Solutions Ethiopia | SaaS
+        Development Ethiopia | E-commerce Solutions Ethiopia | UI/UX Design
+        Ethiopia | Software Maintenance Ethiopia | Software Support Ethiopia |
+        IT Services Ethiopia
       </h1>
       <LandingPage />
 
@@ -27,6 +39,7 @@ function page() {
       />
       <AboutUs />
       <Timeline data={implementationStepsData} />
+      <OurServices />
     </div>
   );
 }

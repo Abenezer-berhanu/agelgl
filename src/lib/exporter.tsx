@@ -32,6 +32,11 @@ export const images = {
   whywe: "/whywe.png",
   testing: "/testing.png",
   development: "/development.png",
+  webDevelopment: "/web_development.png",
+  mobileDevelopment: "/mobile_development.png",
+  uiuxDesign: "/ui-ux_design.png",
+  graphicsDesign: "/graphics_design.png",
+  maintenance: "/maintenance.png",
 };
 
 export const videos = {
@@ -213,8 +218,8 @@ export const navbarLinks = [
         isActive: true,
       },
       {
-        name: "Website Design (UI/UX)",
-        href: "/#services-website-design",
+        name: "Website / App Design (UI/UX)",
+        href: "/#services-ui-ux-design",
         description: "User-centric interfaces and experiences.",
         isActive: true,
       },
@@ -296,4 +301,132 @@ export const keywords: string[] = [
   "benefits of having a mobile app",
   "why my business needs a website",
   "digital transformation for small business",
+];
+
+export const ourServices = [
+  {
+    title: "Mobile Development",
+    value: "Mobile Development",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
+          <p className="text-3xl md:text-7xl bg-linear-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+            Mobile <br /> Development
+          </p>
+          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
+            We build high-performance iOS and Android applications tailored
+            specifically to your business needs, ensuring a seamless user
+            experience with modern features and robust security protocols.
+          </p>
+        </div>
+        <Image
+          src={images.mobileDevelopment}
+          alt="Mobile Development"
+          width={800}
+          height={1200}
+          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Website Development",
+    value: "Website Development",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
+          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+            Website <br /> Development
+          </p>
+          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
+            Our team creates fast, responsive, and SEO-optimized web
+            applications that scale with your growth, utilizing the latest
+            technologies to deliver a powerful digital presence for your brand.
+          </p>
+        </div>
+        <Image
+          src={images.webDevelopment}
+          alt="Web Development"
+          width={800}
+          height={1200}
+          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Website / App Design (UI/UX)",
+    value: "UI/UX",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
+          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+            UI / UX <br /> Design
+          </p>
+          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
+            We focus on user-centric design principles to create intuitive
+            interfaces and engaging experiences, blending aesthetic beauty with
+            functional simplicity to keep your users coming back.
+          </p>
+        </div>
+        <Image
+          src={images.uiuxDesign}
+          alt="UI/UX Design"
+          width={800}
+          height={1200}
+          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "Graphics Solutions",
+    value: "Graphics Solutions",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
+          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+            Graphics <br /> Solutions
+          </p>
+          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
+            Elevate your brand with professional visual identity services,
+            including custom logos, business cards, and high-impact marketing
+            posters that effectively communicate your company{"'"}s values.
+          </p>
+        </div>
+        <Image
+          src={images.graphicsDesign}
+          alt="Graphics Solutions"
+          width={800}
+          height={1200}
+          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
+        />
+      </div>
+    ),
+  },
+  {
+    title: "System Upgrade & Maintenance",
+    value: "Maintenance",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
+          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+            System <br /> Maintenance
+          </p>
+          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
+            We provide comprehensive system audits, regular software updates,
+            and proactive security maintenance to ensure your digital
+            infrastructure stays secure, efficient, and downtime-free.
+          </p>
+        </div>
+        <Image
+          src={images.maintenance}
+          alt="System Upgrade & Maintenance"
+          width={800}
+          height={1200}
+          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
+        />
+      </div>
+    ),
+  },
 ];
