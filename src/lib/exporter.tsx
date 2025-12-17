@@ -308,7 +308,10 @@ export const ourServices = [
     title: "Mobile Development",
     value: "Mobile Development",
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+      <div
+        id="services-mobile-development"
+        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
+      >
         <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
           <p className="text-3xl md:text-7xl bg-linear-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
             Mobile <br /> Development
@@ -333,7 +336,10 @@ export const ourServices = [
     title: "Website Development",
     value: "Website Development",
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+      <div
+        id="services-web-development"
+        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
+      >
         <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
           <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
             Website <br /> Development
@@ -358,7 +364,10 @@ export const ourServices = [
     title: "Website / App Design (UI/UX)",
     value: "UI/UX",
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+      <div
+        id="services-ui-ux-design"
+        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
+      >
         <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
           <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
             UI / UX <br /> Design
@@ -383,7 +392,10 @@ export const ourServices = [
     title: "Graphics Solutions",
     value: "Graphics Solutions",
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+      <div
+        id="services-graphics-solutions"
+        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
+      >
         <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
           <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
             Graphics <br /> Solutions
@@ -408,7 +420,10 @@ export const ourServices = [
     title: "System Upgrade & Maintenance",
     value: "Maintenance",
     content: (
-      <div className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200">
+      <div
+        id="System Upgrade & Maintenance"
+        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
+      >
         <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
           <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
             System <br /> Maintenance
