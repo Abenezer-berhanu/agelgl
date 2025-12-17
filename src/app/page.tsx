@@ -1,7 +1,8 @@
 import AboutUs from "@/components/about/AboutUs";
 import CurvedLoop from "@/components/CurvedLoop";
 import LandingPage from "@/components/landing/LandingPage";
-import { keywords } from "@/lib/exporter";
+import { Timeline } from "@/components/ui/timeline";
+import { implementationStepsData, keywords } from "@/lib/exporter";
 
 function page() {
   return (
@@ -19,12 +20,13 @@ function page() {
         Solutions | Web app Developer | App developer | Website Developer |{" "}
       </h1>
       <LandingPage />
-      <div className="relative"></div>
+
       <CurvedLoop
         className=""
         marqueeText="Agelgl Digital Solutions ✦ Website ✦ Mobile App ✦ Graphics Design ✦ UI/UX ✦ API ✦ Maintenance ✦"
       />
       <AboutUs />
+      <Timeline data={implementationStepsData} />
     </div>
   );
 }

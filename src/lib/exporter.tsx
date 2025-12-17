@@ -1,3 +1,4 @@
+import { OptimizedVideo } from "@/components/OptimizedVideo";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
@@ -38,6 +39,12 @@ export const videos = {
   uiux: "/uiux_video.mp4",
   development: "/development_video.mp4",
   deployment: "/deployment_video.mp4",
+  maintenance: "/maintenance_video.mp4",
+  testing: "/testing_video.mp4",
+  mission: "/mission_video.mp4",
+  team: "/team_video.mp4",
+  aboutUsDevelopment: "/about_development_video.mp4",
+  whychooseUs: "/choseus_video.mp4",
 };
 
 export const companyInfo = {
@@ -49,20 +56,14 @@ export const companyInfo = {
   state: "Addis Ababa",
 };
 
-export const content = [
+export const aboutUsContent = [
   {
     title: "Our Mission",
     description:
       "We are driven by a single purpose: to build Solution that accelerates your business, not complicates it. We focus on lean, scalable, and secure architecture, translating complex business challenges into elegant digital solutions that deliver measurable ROI.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        <Image
-          src={images.mission}
-          width={600}
-          height={600}
-          className="h-full w-full object-contain"
-          alt="Our Mission"
-        />
+        <OptimizedVideo mp4Src={videos.mission} />
       </div>
     ),
   },
@@ -72,14 +73,7 @@ export const content = [
       "Our team is a carefully curated blend of senior architects, seasoned developers, and dedicated Graphics and UX/UI designers. We specialize in modern frameworks and cloud infrastructure, ensuring your project is handled by specialists who live and breathe high-performance technology.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
-        {/* Placeholder: Replace with an image of your team, or a graphic representing expertise/tech stack */}
-        <Image
-          src={images.team}
-          width={600}
-          height={600}
-          className="h-full w-full object-contain"
-          alt="Technical expertise and core team"
-        />
+        <OptimizedVideo mp4Src={videos.team} />
       </div>
     ),
   },
@@ -89,13 +83,7 @@ export const content = [
       "We operate on principles of transparency, iteration, and absolute reliability. We prioritize comprehensive testing and DevOps automation to ensure the 'Maximum Uptime' we promise is delivered. We don't just build code; we build dependable systems ready for global scale.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-        <Image
-          src={images.development}
-          width={600}
-          height={600}
-          className="h-full w-full object-contain"
-          alt="Our Development Philosophy: Uptime & Scale"
-        />
+        <OptimizedVideo mp4Src={videos.aboutUsDevelopment} />
       </div>
     ),
   },
@@ -105,13 +93,7 @@ export const content = [
       "Off-the-shelf solutions often fail to meet unique business demands. Our 'Offers Choice' promise means we tailor every feature and integration to fit your exact processes, eliminating bottlenecks, providing unparalleled flexibility, and safeguarding your long-term success.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        <Image
-          src={images.whywe}
-          width={600}
-          height={600}
-          className="h-full w-full object-contain"
-          alt="Why Choose Our Custom Approach"
-        />
+        <OptimizedVideo mp4Src={videos.whychooseUs} />
       </div>
     ),
   },
@@ -122,28 +104,12 @@ export const implementationStepsData = [
     title: "Concept",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+        <p className="mb-8 text-sm md:text-lg text-neutral-800 dark:text-neutral-200">
           During this initial phase, we conduct thorough Discovery and Research
-          to lay a precise foundation for the entire project. We perform
-          in-depth Market and User Research to identify core needs, pain points,
-          and competitive gaps. This process allows us to gather and define
-          detailed technical and business Requirements, establish the exact
-          project Scope, and develop a high-level conceptual outline of the
-          solution. Finally, we create a definitive Project Plan and Timeline
-          and assign all necessary project roles and responsibilities.
+          to lay a precise foundation for the entire project.
         </p>
-        <div className="gap-4">
-          <video
-            playsInline
-            muted
-            loop
-            autoPlay
-            preload="none"
-            className="w-full h-full object-cover rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          >
-            <source src={videos.conceptVideo} type="video/mp4" />
-          </video>
-        </div>
+
+        <OptimizedVideo mp4Src={videos.conceptVideo} />
       </div>
     ),
   },
@@ -151,25 +117,12 @@ export const implementationStepsData = [
     title: "UI/UX Design",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+        <p className="mb-8 text-sm md:text-lg text-neutral-800 dark:text-neutral-200">
           We begin with Wireframing and Prototyping to visualize the complete
-          user flow, interface structure, and user experience. Following client
-          approval, we develop comprehensive Visual Designs and high-fidelity
-          Assets that define the final look, feel, and brand identity of the
-          software.
+          user experience.
         </p>
-        <div className="gap-4">
-          <video
-            playsInline
-            muted
-            loop
-            autoPlay
-            preload="none"
-            className="w-full h-full object-cover rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          >
-            <source src={videos.uiux} type="video/mp4" />
-          </video>
-        </div>
+
+        <OptimizedVideo mp4Src={videos.uiux} />
       </div>
     ),
   },
@@ -177,27 +130,12 @@ export const implementationStepsData = [
     title: "Development",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal md:text-sm">
-          In the Development and Implementation phase, we rapidly build the
-          software, translating the finalized design and specifications into
-          functional code. We utilize agile sprints for iterative development,
-          writing, integrating, and rigorously testing the software in parallel.
-          Quality assurance is continuous, ensuring that all issues and bugs are
-          identified and resolved as they arise.
+        <p className="mb-8 text-sm md:text-lg">
+          We translate approved designs into production-ready software using
+          agile sprints.
         </p>
 
-        <div className="gap-4">
-          <video
-            playsInline
-            muted
-            loop
-            autoPlay
-            preload="none"
-            className="w-full h-full object-cover rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          >
-            <source src={videos.development} type="video/mp4" />
-          </video>
-        </div>
+        <OptimizedVideo mp4Src={videos.development} />
       </div>
     ),
   },
@@ -205,83 +143,35 @@ export const implementationStepsData = [
     title: "Testing & QA",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal md:text-sm">
-          The Quality Assurance (QA) Phase involves rigorous and multi-faceted
-          testing to validate the solution against all functional and
-          non-functional requirements. We perform stress, scalability, security,
-          and integration testing to ensure the software is not only reliable
-          under load but also secure against vulnerabilities. All identified
-          defects and issues are meticulously documented and resolved until the
-          system achieves optimal performance and stability.
+        <p className="mb-8 text-sm md:text-lg">
+          Rigorous testing ensures stability, performance, and security.
         </p>
 
-        <div className="gap-4">
-          <Image
-            src={images.testing}
-            alt="startup template"
-            width={600}
-            height={600}
-            className="h-full w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-        </div>
+        <OptimizedVideo mp4Src={videos.testing} />
       </div>
     ),
   },
   {
-    title: "Deployment & Go live",
+    title: "Deployment & Go Live",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal md:text-sm">
-          The Deployment and Launch Phase focuses on seamlessly migrating the
-          validated solution into your production environment. This involves
-          setting up and configuring all necessary cloud infrastructure
-          components (servers, databases, networking), often managed through
-          automated DevOps pipelines. We ensure the software is fully configured
-          to meet your business{"'"}s specific operational requirements and is
-          correctly integrated with all existing internal systems for a
-          successful go-live.
+        <p className="mb-8 text-sm md:text-lg">
+          We deploy and configure production infrastructure for seamless launch.
         </p>
-        <div className="gap-4">
-          <video
-            playsInline
-            muted
-            loop
-            autoPlay
-            preload="none"
-            className="w-full h-full object-cover rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          >
-            <source src={videos.deployment} type="video/mp4" />
-          </video>
-        </div>
+
+        <OptimizedVideo mp4Src={videos.deployment} />
       </div>
     ),
   },
   {
-    title: "Maintenance and Support",
+    title: "Maintenance & Support",
     content: (
       <div>
-        <p className="mb-8 text-xs font-normal md:text-sm">
-          Our commitment extends far beyond launch with a comprehensive
-          Maintenance and Support framework. We provide continuous monitoring,
-          performance optimization, and proactive system updates to guarantee
-          long-term reliability and security. Our support includes rapid
-          response to critical issues, bug fixes, and scheduled preventative
-          maintenance, ensuring your software remains fast, secure, and aligned
-          with evolving technology and business demands.
+        <p className="mb-8 text-sm md:text-lg">
+          Continuous monitoring and proactive maintenance keep systems reliable.
         </p>
 
-        <div className="gap-4">
-          <video
-            playsInline
-            muted
-            loop
-            autoPlay
-            preload="none"
-            className="w-full h-full object-cover rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          >
-            <source src={videos.development} type="video/mp4" />
-          </video>
-        </div>
+        <OptimizedVideo mp4Src={videos.maintenance} />
       </div>
     ),
   },
