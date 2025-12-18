@@ -1,4 +1,5 @@
 import { OptimizedVideo } from "@/components/OptimizedVideo";
+import { ServiceCard } from "@/components/services/ServiceCard";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
@@ -37,6 +38,12 @@ export const images = {
   uiuxDesign: "/ui-ux_design.png",
   graphicsDesign: "/graphics_design.png",
   maintenance: "/maintenance.png",
+  easycarrent: "/easycarrent.png",
+  aycc: "/aycc.png",
+  adventureHub: "/adventure_hub.png",
+  instajobs: "/instajobs.png",
+  blakcup: "/blakcup.png",
+  intuativeLms: "/intuative_lms.png",
 };
 
 export const videos = {
@@ -308,140 +315,122 @@ export const ourServices = [
     title: "Mobile Development",
     value: "Mobile Development",
     content: (
-      <div
+      <ServiceCard
         id="services-mobile-development"
-        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
-      >
-        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
-          <p className="text-3xl md:text-7xl bg-linear-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+        title={
+          <>
             Mobile <br /> Development
-          </p>
-          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
-            We build high-performance iOS and Android applications tailored
-            specifically to your business needs, ensuring a seamless user
-            experience with modern features and robust security protocols.
-          </p>
-        </div>
-        <Image
-          src={images.mobileDevelopment}
-          alt="Mobile Development"
-          width={800}
-          height={1200}
-          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
-        />
-      </div>
+          </>
+        }
+        imageSrc={images.mobileDevelopment}
+        description="We engineer high-performance iOS and Android applications tailored to specific business needs, ensuring a seamless user experience through modern features and robust security protocols."
+      />
     ),
   },
   {
     title: "Website Development",
     value: "Website Development",
     content: (
-      <div
+      <ServiceCard
         id="services-web-development"
-        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
-      >
-        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
-          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+        title={
+          <>
             Website <br /> Development
-          </p>
-          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
-            Our team creates fast, responsive, and SEO-optimized web
-            applications that scale with your growth, utilizing the latest
-            technologies to deliver a powerful digital presence for your brand.
-          </p>
-        </div>
-        <Image
-          src={images.webDevelopment}
-          alt="Web Development"
-          width={800}
-          height={1200}
-          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
-        />
-      </div>
+          </>
+        }
+        imageSrc={images.webDevelopment}
+        description="Our team architected fast, responsive, and SEO-optimized web applications that scale with your growth, utilizing the latest technologies to deliver a powerful digital presence for your brand."
+      />
     ),
   },
   {
     title: "Website / App Design (UI/UX)",
     value: "UI/UX",
     content: (
-      <div
+      <ServiceCard
         id="services-ui-ux-design"
-        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
-      >
-        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
-          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+        title={
+          <>
             UI / UX <br /> Design
-          </p>
-          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
-            We focus on user-centric design principles to create intuitive
-            interfaces and engaging experiences, blending aesthetic beauty with
-            functional simplicity to keep your users coming back.
-          </p>
-        </div>
-        <Image
-          src={images.uiuxDesign}
-          alt="UI/UX Design"
-          width={800}
-          height={1200}
-          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
-        />
-      </div>
+          </>
+        }
+        imageSrc={images.uiuxDesign}
+        description="We focus on user-centric design principles to create intuitive interfaces and engaging experiences, blending aesthetic beauty with functional simplicity to maximize user retention."
+      />
     ),
   },
   {
     title: "Graphics Solutions",
     value: "Graphics Solutions",
     content: (
-      <div
+      <ServiceCard
         id="services-graphics-solutions"
-        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
-      >
-        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
-          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+        title={
+          <>
             Graphics <br /> Solutions
-          </p>
-          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
-            Elevate your brand with professional visual identity services,
-            including custom logos, business cards, and high-impact marketing
-            posters that effectively communicate your company{"'"}s values.
-          </p>
-        </div>
-        <Image
-          src={images.graphicsDesign}
-          alt="Graphics Solutions"
-          width={800}
-          height={1200}
-          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
-        />
-      </div>
+          </>
+        }
+        imageSrc={images.graphicsDesign}
+        description="Elevate your brand with professional visual identity services, including custom logos and high-impact marketing materials that effectively communicate your company's core values."
+      />
     ),
   },
   {
     title: "System Upgrade & Maintenance",
     value: "Maintenance",
     content: (
-      <div
-        id="System Upgrade & Maintenance"
-        className="w-full overflow-hidden relative h-full rounded-2xl border-2 border-purple-200 shadow-lg bg-gradient-to-br from-purple-50 via-violet-100 to-purple-200"
-      >
-        <div className="relative z-10 bg-white/95 backdrop-blur-sm w-fit ml-auto mt-auto p-8 rounded-xl shadow-xl max-w-[600px] border border-purple-100">
-          <p className="text-3xl md:text-7xl bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent text-end font-bold leading-tight">
+      <ServiceCard
+        id="services-maintenance"
+        title={
+          <>
             System <br /> Maintenance
-          </p>
-          <p className="text-gray-700 text-end mt-4 leading-relaxed text-base">
-            We provide comprehensive system audits, regular software updates,
-            and proactive security maintenance to ensure your digital
-            infrastructure stays secure, efficient, and downtime-free.
-          </p>
-        </div>
-        <Image
-          src={images.maintenance}
-          alt="System Upgrade & Maintenance"
-          width={800}
-          height={1200}
-          className="absolute inset-0 h-full w-full object-cover left-0 top-0 opacity-90"
-        />
-      </div>
+          </>
+        }
+        imageSrc={images.maintenance}
+        description="We provide comprehensive system audits, regular software updates, and proactive security maintenance to ensure your digital infrastructure stays secure, efficient, and downtime-free."
+      />
     ),
+  },
+];
+
+export const portfolios = [
+  {
+    title: "Easy car rent",
+    description:
+      "Our team engineered a comprehensive web platform that allows users to check availability and book vehicles online. The solution was met with high user satisfaction and directly contributed to a 20% growth in their customer base within the first five months.",
+    link: "https://easycarrentet.com",
+    image: images.easycarrent,
+  },
+  {
+    title: "AYCC",
+    description:
+      "Our team engineered a high-performance digital ecosystem for the Asella Youth and Community Center. We architected the platform to streamline donation workflows and integrate comprehensive educational resources, utilizing a cutting-edge tech stack to ensure 24/7 reliability and a premium user experience. This digital transformation empowers the center to scale its social impact through modernized financial and educational infrastructure.",
+    link: "https://asellayouthclub.com/en",
+    image: images.aycc,
+  },
+  {
+    title: "Adventure Hub",
+    description:
+      "AdventureHub: An Integrated Digital Ecosystem for Global Tourism Our team architected and deployed a comprehensive enterprise solution for the travel and hospitality sector. We engineered a robust platform featuring advanced traffic-management protocols, automated financial documentation, and seamless geographic data integration. By implementing secure identity management and a sophisticated administrative console, we provided the client with a scalable infrastructure capable of managing high-volume bookings and complex digital assets with optimized efficiency.",
+    link: "https://tour-and-travel-final.vercel.app/",
+    image: images.adventureHub,
+  },
+  {
+    title: "Blakcup",
+    description:
+      "Cross-Platform Optimization and Global Marketplace Deployment Our team led a comprehensive platform modernization focused on structural integrity and performance engineering. The project involved a deep-tier code audit to optimize system responsiveness and the integration of secure, multi-channel payment gateways. We managed the end-to-end release lifecycle, successfully launching the high-performance application on both the Apple App Store and Google Play Store, ensuring a stable and scalable environment for global users.",
+    image: images.blakcup,
+  },
+  {
+    title: "InstaJobs",
+    description:
+      "Enterprise Talent Acquisition & Recruitment Ecosystem We engineered a high-performance career discovery platform designed to bridge the gap between global talent and industry leaders. The solution features a secure, multi-provider identity management system and integrated financial infrastructure for seamless transaction processing. By architecting a robust network of third-party service integrations, we delivered a centralized hub that optimizes the recruitment lifecycle, providing users with a fluid, high-speed interface for professional networking and employment management.",
+    image: images.instajobs,
+  },
+  {
+    title: "Intuitive LMS",
+    description:
+      "Enterprise Knowledge Management & Educational Ecosystem Architecting the future of institutional growth through a high-performance digital learning infrastructure. Our solution centralizes curriculum delivery and student engagement into a single, scalable ecosystem, designed to streamline knowledge transfer and optimize organizational learning outcomes.",
+    image: images.intuativeLms,
   },
 ];
