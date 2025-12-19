@@ -47,16 +47,24 @@ export const images = {
 };
 
 export const videos = {
-  conceptVideo: "/concept_video.mp4",
-  uiux: "/uiux_video.mp4",
-  development: "/development_video.mp4",
-  deployment: "/deployment_video.mp4",
-  maintenance: "/maintenance_video.mp4",
-  testing: "/testing_video.mp4",
-  mission: "/mission_video.mp4",
-  team: "/team_video.mp4",
-  aboutUsDevelopment: "/about_development_video.mp4",
-  whychooseUs: "/choseus_video.mp4",
+  conceptVideo:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153200/concept_video_jfdsrj.mp4",
+  uiux: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153210/uiux_video_fncvaa.mp4",
+  development:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153208/deployment_video_qyvrit.mp4",
+  deployment:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153213/development_video_m4decz.mp4",
+  maintenance:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/maintenance_video_n3xug0.mp4",
+  testing:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/testing_video_wpy18v.mp4",
+  mission:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,q_91,w_642/v1766153209/mission_video_lf66nq.mp4",
+  team: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/team_video_k8ogpq.mp4",
+  aboutUsDevelopment:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153114/about_development_video_gvzsvm.mp4",
+  whychooseUs:
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153201/choseus_video_sw3tku.mp4",
 };
 
 export const companyInfo = {
