@@ -130,3 +130,51 @@
     @apply bg-background text-foreground;
   }
 }
+
+.left-bottom {
+  margin-left: 25%;
+  bottom: 5px;
+}
+.left-1 {
+  margin-left: 8%;
+  bottom: 25%;
+}
+
+.left-2 {
+  margin-left: 5%;
+  bottom: 55%;
+}
+
+.left-top {
+  top: 7%;
+  left: 20%;
+}
+
+.top-left {
+  left: 40%;
+  top: 6%;
+}
+
+.top-right {
+  right: 40%;
+  top: 6%;
+}
+
+.right-bottom {
+  right: 25%;
+  bottom: 5px;
+}
+.right-1 {
+  margin-right: 8%;
+  bottom: 25%;
+}
+
+.right-2 {
+  margin-right: 5%;
+  bottom: 55%;
+}
+
+.right-top {
+  top: 7%;
+  right: 20%;
+}

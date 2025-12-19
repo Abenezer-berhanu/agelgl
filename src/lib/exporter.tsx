@@ -23,6 +23,18 @@ export const socialMediaLinks = [
   },
 ];
 
+export const icons = [
+  { src: "/icons/figma.png", class: "left-bottom" },
+  { src: "/icons/pen-tool.png", class: "left-1" },
+  { src: "/icons/photoshop.png", class: "left-2" },
+  { src: "/icons/illustrator.png", class: "left-top" },
+  { src: "/icons/programming.png", class: "top-left" },
+  { src: "/icons/vscode.png", class: "top-right" },
+  { src: "/icons/canva.png", class: "right-top" },
+  { src: "/icons/mac.png", class: "right-2" },
+  { src: "/icons/android.png", class: "right-1" },
+  { src: "/icons/playstore.png", class: "right-bottom" },
+];
 export const images = {
   logo: "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766168390/Black_White_Simple_Bold_Elegant_Feminine_Fashion_Boutique_Logo_ujptw7.png",
   webDevelopment:
@@ -31,7 +43,8 @@ export const images = {
     "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766169020/services_ncxeqm.png",
   mobileDevelopment:
     "https://res.cloudinary.com/dg6ck04nm/image/upload/e_improve,e_sharpen/v1766166780/mobile_development_romns5.png",
-  uiuxDesign: "/ui-ux_design.png",
+  uiuxDesign:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166779/ui-ux_design_v35vp0.webp",
   graphicsDesign:
     "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166733/graphics_design_uxieuy.webp",
   maintenance:

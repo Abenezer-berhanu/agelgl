@@ -33,21 +33,7 @@ export function AnimatedWords({
       className={className}
     >
       {words.map((word, i) => (
-        <m.span
-          key={i}
-          className="inline-block mr-2"
-          variants={{
-            hidden: { y: 24, opacity: 0 },
-            visible: {
-              y: 0,
-              opacity: 1,
-              transition: {
-                duration: 0.5,
-                ease: easeOutSoft,
-              },
-            },
-          }}
-        >
+        <m.span key={i} className="inline-block mr-2">
           {word}
         </m.span>
       ))}
