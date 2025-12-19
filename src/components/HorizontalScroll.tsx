@@ -29,7 +29,7 @@ const HorizontalScroll = ({
     <section ref={targetRef} className="relative h-[290vh]">
       <LazyMotion features={domAnimation}>
         <div className="sticky top-0 flex flex-col h-screen overflow-hidden bg-neutral-50/50 backdrop-blur-sm">
-          <div className="flex-shrink-0 px-8 pt-12 pb-4">
+          <div className="shrink-0 px-8 pt-12 pb-4">
             <m.h2
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ const HorizontalScroll = ({
                       delay: idx * 0.1,
                       ease: "backOut",
                     }}
-                    className="w-[80vw] h-[70vh] flex-shrink-0 rounded-3xl border border-neutral-200 shadow-xl overflow-hidden relative"
+                    className="w-[80vw] h-[70vh] shrink-0 rounded-3xl border border-neutral-200 shadow-xl overflow-hidden relative"
                   >
                     <div className="absolute inset-0 z-0 w-full h-full">
                       {card.content}

@@ -5,7 +5,7 @@ import { ourServices } from "@/lib/exporter";
 function OurServices() {
   return (
     <div className="sm:px-20">
-      <div className="h-[80vh]">
+      <div className="">
         <Tabs tabs={ourServices} />
       </div>
     </div>

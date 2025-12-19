@@ -63,7 +63,8 @@ export const companyInfo = {
   name: "Agelgl Digital Solutions",
   email: "contact@agelgl.com",
   phone: "+251986190354",
-  address: "Addis Ababa, Ethiopia",
+  phone2: "+251954704213",
+  address: "Bole, Addis Ababa, Ethiopia",
   city: "Addis Ababa",
   state: "Addis Ababa",
 };
@@ -380,7 +381,7 @@ export const ourServices = [
     value: "Maintenance",
     content: (
       <ServiceCard
-        id="services-maintenance"
+        id="services-system-upgrade-maintenance"
         title={
           <>
             System <br /> Maintenance
@@ -400,6 +401,7 @@ export const portfolios = [
       "Our team engineered a comprehensive web platform that allows users to check availability and book vehicles online. The solution was met with high user satisfaction and directly contributed to a 20% growth in their customer base within the first five months.",
     link: "https://easycarrentet.com",
     image: images.easycarrent,
+    category: "Website",
   },
   {
     title: "AYCC",
@@ -407,6 +409,7 @@ export const portfolios = [
       "Our team engineered a high-performance digital ecosystem for the Asella Youth and Community Center. We architected the platform to streamline donation workflows and integrate comprehensive educational resources, utilizing a cutting-edge tech stack to ensure 24/7 reliability and a premium user experience. This digital transformation empowers the center to scale its social impact through modernized financial and educational infrastructure.",
     link: "https://asellayouthclub.com/en",
     image: images.aycc,
+    category: "Website",
   },
   {
     title: "Adventure Hub",
@@ -414,23 +417,27 @@ export const portfolios = [
       "AdventureHub: An Integrated Digital Ecosystem for Global Tourism Our team architected and deployed a comprehensive enterprise solution for the travel and hospitality sector. We engineered a robust platform featuring advanced traffic-management protocols, automated financial documentation, and seamless geographic data integration. By implementing secure identity management and a sophisticated administrative console, we provided the client with a scalable infrastructure capable of managing high-volume bookings and complex digital assets with optimized efficiency.",
     link: "https://tour-and-travel-final.vercel.app/",
     image: images.adventureHub,
+    category: "Website",
   },
   {
     title: "Blakcup",
     description:
       "Cross-Platform Optimization and Global Marketplace Deployment Our team led a comprehensive platform modernization focused on structural integrity and performance engineering. The project involved a deep-tier code audit to optimize system responsiveness and the integration of secure, multi-channel payment gateways. We managed the end-to-end release lifecycle, successfully launching the high-performance application on both the Apple App Store and Google Play Store, ensuring a stable and scalable environment for global users.",
     image: images.blakcup,
+    category: "App",
   },
   {
     title: "InstaJobs",
     description:
       "Enterprise Talent Acquisition & Recruitment Ecosystem We engineered a high-performance career discovery platform designed to bridge the gap between global talent and industry leaders. The solution features a secure, multi-provider identity management system and integrated financial infrastructure for seamless transaction processing. By architecting a robust network of third-party service integrations, we delivered a centralized hub that optimizes the recruitment lifecycle, providing users with a fluid, high-speed interface for professional networking and employment management.",
     image: images.instajobs,
+    category: "App",
   },
   {
     title: "Intuitive LMS",
     description:
       "Enterprise Knowledge Management & Educational Ecosystem Architecting the future of institutional growth through a high-performance digital learning infrastructure. Our solution centralizes curriculum delivery and student engagement into a single, scalable ecosystem, designed to streamline knowledge transfer and optimize organizational learning outcomes.",
     image: images.intuativeLms,
+    category: "App",
   },
 ];

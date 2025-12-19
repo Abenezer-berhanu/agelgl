@@ -29,21 +29,13 @@ function LandingPage() {
         />
       </div>
       <div className="h-full w-full flex flex-col items-center justify-center relative px-4 sm:px-6">
-        <LazyMotion features={domAnimation}>
-          <m.div
-            initial={{ opacity: 0, y: -16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: easeOutSoft }}
-          >
-            <LandingLogo />
-          </m.div>
-        </LazyMotion>
+        <LazyMotion features={domAnimation}></LazyMotion>
         <LazyMotion features={domAnimation}>
           <m.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: easeOutSoft, delay: 0.05 }}
-            className="text-3xl tracking-wider leading-snug sm:text-5xl md:text-6xl font-semibold whitespace-pre-line max-w-[1100px] mx-auto text-center my-5"
+            className="text-3xl tracking-wider leading-snug sm:text-5xl md:text-6xl font-semibold whitespace-pre-line max-w-275 mx-auto text-center my-5"
           >
             We build Software that performs <br />
             <span className="flex justify-center flex-wrap">

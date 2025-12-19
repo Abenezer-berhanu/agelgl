@@ -1,6 +1,8 @@
 import AboutUs from "@/components/about/AboutUs";
+import ContactUs from "@/components/contact/ContactUs";
 import CurvedLoop from "@/components/CurvedLoop";
 import LandingPage from "@/components/landing/LandingPage";
+import Portfolios from "@/components/portfolio/Portfolios";
 import OurServices from "@/components/services/OurServices";
 import { Timeline } from "@/components/ui/timeline";
 import { implementationStepsData, keywords } from "@/lib/exporter";
@@ -40,6 +42,8 @@ function page() {
       <AboutUs />
       <Timeline data={implementationStepsData} />
       <OurServices />
+      <Portfolios />
+      <ContactUs />
     </div>
   );
 }

@@ -6,6 +6,8 @@ import { Toaster } from "@/components/ui/sonner";
 import Navbar from "@/components/landing/Navbar";
 import { keywords } from "@/lib/exporter";
 
+export const revalidate = 2592000;
+
 const jostSemibold = Jost({
   weight: "500",
   subsets: ["latin"],

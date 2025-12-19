@@ -154,10 +154,10 @@ const Header = () => {
   const closeMenu = () => setMobileMenuOpen(false);
 
   return (
-    <header className="relative z-50 w-full bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800">
-      <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="relative z-50 w-full bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800 lg:px-8 sm:sticky top-0 sm:bg-white/70">
+      <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 ">
         {/* --- ZONE 1: LOGO (Left) --- */}
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           <Link href={navbarLinks[0].href} className="">
             <Logo />
           </Link>
@@ -177,7 +177,7 @@ const Header = () => {
                       <NavigationMenu.Trigger className="group flex select-none text-lg items-center gap-1 rounded px-3 py-2 text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-white outline-none">
                         {link.name}
                         <ChevronDown
-                          className="relative top-[1px] h-3 w-3 transition-transform duration-200 group-data-[state=open]:-rotate-180"
+                          className="relative top-px h-3 w-3 transition-transform duration-200 group-data-[state=open]:-rotate-180"
                           aria-hidden="true"
                         />
                       </NavigationMenu.Trigger>
@@ -200,7 +200,7 @@ const Header = () => {
                                 alt="Services"
                                 width={400}
                                 height={400}
-                                className="rounded-lg w-full max-w-[200px] max-h-[150px] object-cover"
+                                className="rounded-lg w-full max-w-50 max-h-37.5 object-cover"
                               />
                             </div>
 
@@ -251,7 +251,7 @@ const Header = () => {
 
             <div className="absolute left-0 top-full w-full">
               <div className="flex justify-center w-full perspective-[2000px]">
-                <NavigationMenu.Viewport className="relative h-[var(--radix-navigation-menu-viewport-height)] w-full overflow-hidden transition-[width,_height] duration-300 sm:w-[var(--radix-navigation-menu-viewport-width)]" />
+                <NavigationMenu.Viewport className="relative h-(--radix-navigation-menu-viewport-height) w-full overflow-hidden transition-[width,height] duration-300 sm:w-(--radix-navigation-menu-viewport-width)" />
               </div>
             </div>
           </NavigationMenu.Root>
