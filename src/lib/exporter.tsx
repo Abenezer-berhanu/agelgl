@@ -27,6 +27,8 @@ export const images = {
   logo: "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766168390/Black_White_Simple_Bold_Elegant_Feminine_Fashion_Boutique_Logo_ujptw7.png",
   webDevelopment:
     "https://res.cloudinary.com/dg6ck04nm/image/upload/c_scale,w_996/v1766166798/web_development_k8hhps.png",
+  services:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766169020/services_ncxeqm.png",
   mobileDevelopment:
     "https://res.cloudinary.com/dg6ck04nm/image/upload/e_improve,e_sharpen/v1766166780/mobile_development_romns5.png",
   uiuxDesign: "/ui-ux_design.png",
