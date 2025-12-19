@@ -1,6 +1,5 @@
 import { OptimizedVideo } from "@/components/OptimizedVideo";
 import { ServiceCard } from "@/components/services/ServiceCard";
-import Image from "next/image";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export const socialMediaLinks = [
@@ -25,31 +24,33 @@ export const socialMediaLinks = [
 ];
 
 export const images = {
-  logo: "/logo.png",
-  landingPageLogo: "/logo_landing.png",
-  services: "/services.png",
-  mission: "/mission.png",
-  team: "/team.png",
-  whywe: "/whywe.png",
-  testing: "/testing.png",
-  development: "/development.png",
-  webDevelopment: "/web_development.png",
-  mobileDevelopment: "/mobile_development.png",
+  logo: "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766168390/Black_White_Simple_Bold_Elegant_Feminine_Fashion_Boutique_Logo_ujptw7.png",
+  webDevelopment:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/c_scale,w_996/v1766166798/web_development_k8hhps.png",
+  mobileDevelopment:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/e_improve,e_sharpen/v1766166780/mobile_development_romns5.png",
   uiuxDesign: "/ui-ux_design.png",
-  graphicsDesign: "/graphics_design.png",
-  maintenance: "/maintenance.png",
-  easycarrent: "/easycarrent.png",
-  aycc: "/aycc.png",
-  adventureHub: "/adventure_hub.png",
-  instajobs: "/instajobs.png",
-  blakcup: "/blakcup.png",
-  intuativeLms: "/intuative_lms.png",
+  graphicsDesign:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166733/graphics_design_uxieuy.webp",
+  maintenance:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166766/maintenance_zkvn5v.avif",
+  easycarrent:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/c_fit,w_743/v1766166760/easycarrent_qdclf0.png",
+  aycc: "https://res.cloudinary.com/dg6ck04nm/image/upload/c_scale,w_1000/v1766166794/aycc_zu0cnl.png",
+  adventureHub:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/c_scale,w_1000/v1766166778/adventure_hub_uk2ovf.png",
+  instajobs:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166751/instajobs_k2k0ca.png",
+  blakcup:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766167679/blakcup_slq0ut.jpg",
+  intuativeLms:
+    "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166748/intuative_lms_zltwmv.png",
 };
 
 export const videos = {
   conceptVideo:
     "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153200/concept_video_jfdsrj.mp4",
-  uiux: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153210/uiux_video_fncvaa.mp4",
+  uiux: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_871/v1766153210/uiux_video_fncvaa.mp4",
   development:
     "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153208/deployment_video_qyvrit.mp4",
   deployment:
