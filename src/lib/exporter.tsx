@@ -64,23 +64,23 @@ export const images = {
 
 export const videos = {
   conceptVideo:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153200/concept_video_jfdsrj.mp4",
-  uiux: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_871/v1766153210/uiux_video_fncvaa.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766404942/Concept_Video_Jfdsrj_rg3gzx.mp4",
+  uiux: "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766249250/Uiux_Video2_l62bay.mp4",
   development:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153208/deployment_video_qyvrit.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766404754/Development_bbfmdy.mp4",
   deployment:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153213/development_video_m4decz.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766404503/Deployment_k86ojj.mp4",
   maintenance:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/maintenance_video_n3xug0.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766153202/maintenance_video_n3xug0.mp4",
   testing:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/testing_video_wpy18v.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766153202/testing_video_wpy18v.mp4",
   mission:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,q_91,w_642/v1766153209/mission_video_lf66nq.mp4",
-  team: "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153202/team_video_k8ogpq.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766153209/mission_video_lf66nq.mp4",
+  team: "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766153202/team_video_k8ogpq.mp4",
   aboutUsDevelopment:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153114/about_development_video_gvzsvm.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766404384/About_Development_Video_Gvzsvm_stir5y.mp4",
   whychooseUs:
-    "https://res.cloudinary.com/dg6ck04nm/video/upload/c_fit,w_850/v1766153201/choseus_video_sw3tku.mp4",
+    "https://res.cloudinary.com/dg6ck04nm/video/upload/v1766405293/Choseus_Video_mygupe.mp4",
 };
 
 export const companyInfo = {
