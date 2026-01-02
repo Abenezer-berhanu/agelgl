@@ -1,6 +1,17 @@
 import { OptimizedVideo } from "@/components/OptimizedVideo";
 import { ServiceCard } from "@/components/services/ServiceCard";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaHandshake, FaChartLine, FaRegEye, FaTools } from "react-icons/fa";
+import {
+  FaShieldAlt,
+  FaUserLock,
+  FaKey,
+  FaLock,
+  FaBug,
+  FaServer,
+  FaBell,
+  FaClipboardList,
+} from "react-icons/fa";
 
 export const socialMediaLinks = [
   {
@@ -284,7 +295,7 @@ export const navbarLinks = [
   },
   {
     name: "FAQ",
-    href: "/#FAQ",
+    href: "/#faq",
     image: images.faq,
     subMenuDescription: "Answers to most raised questions.",
     isActive: true,
@@ -490,5 +501,95 @@ export const portfolios = [
       "Enterprise Knowledge Management & Educational Ecosystem Architecting the future of institutional growth through a high-performance digital learning infrastructure. Our solution centralizes curriculum delivery and student engagement into a single, scalable ecosystem, designed to streamline knowledge transfer and optimize organizational learning outcomes.",
     image: images.intuativeLms,
     category: "App",
+  },
+];
+
+export const whyChooseUs = [
+  {
+    id: 1,
+    title: "Product Partnership, Not Outsourcing",
+    description:
+      "We embed into your business model and decision process, ensuring the software supports how you actually operate, not how a template assumes you should.",
+    icon: FaHandshake,
+  },
+  {
+    id: 2,
+    title: "Engineered for Long Term ROI",
+    description:
+      "Every system is architected for maintainability and controlled growth, reducing rework, technical debt, and unnecessary future spending.",
+    icon: FaChartLine,
+  },
+  {
+    id: 3,
+    title: "2 Months Free Post Launch Maintenance",
+    description:
+      "After delivery, we provide two months of free maintenance to stabilize your system, fix edge cases, and ensure smooth real world operation before any support contract begins.",
+    icon: FaTools,
+  },
+  {
+    id: 4,
+    title: "Radical Transparency Process",
+    description:
+      "You receive full visibility into progress, decisions, and tradeoffs through structured milestones, demos, and clear technical documentation.",
+    icon: FaRegEye,
+  },
+];
+
+export const securityFramework = [
+  {
+    id: 1,
+    title: "Security by Design Architecture",
+    description:
+      "Every system begins with threat modeling, trust boundary definition, and least privilege rules enforced at the architecture level.",
+    icon: FaShieldAlt,
+  },
+  {
+    id: 2,
+    title: "Strict Access Control and Secrets Management",
+    description:
+      "All credentials are stored in secure environment vaults with role based access control across application, database, and infrastructure layers.",
+    icon: FaUserLock,
+  },
+  {
+    id: 3,
+    title: "Hardened API and Authentication Flow",
+    description:
+      "APIs use token based authentication, refresh rotation, rate limiting, and anomaly detection to block abuse and intrusion attempts.",
+    icon: FaKey,
+  },
+  {
+    id: 4,
+    title: "Data Protection at Rest and in Transit",
+    description:
+      "All connections are encrypted and sensitive records are protected at the database layer with controlled key rotation.",
+    icon: FaLock,
+  },
+  {
+    id: 5,
+    title: "Automated Dependency and Vulnerability Scanning",
+    description:
+      "Every deployment is scanned for outdated packages, license risks, and known vulnerabilities before release approval.",
+    icon: FaBug,
+  },
+  {
+    id: 6,
+    title: "Isolated Environments and Deployment Controls",
+    description:
+      "Development, staging, and production are fully isolated with zero direct production access and automated rollback mechanisms.",
+    icon: FaServer,
+  },
+  {
+    id: 7,
+    title: "Logging, Monitoring, and Incident Readiness",
+    description:
+      "Real time alerts, audit trails, and structured logging detect suspicious activity early and support rapid incident response.",
+    icon: FaBell,
+  },
+  {
+    id: 8,
+    title: "Client Ownership and Handover Security",
+    description:
+      "Full security documentation, access control guides, and secret rotation playbooks are delivered at project handover.",
+    icon: FaClipboardList,
   },
 ];

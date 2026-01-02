@@ -1,6 +1,8 @@
 import AboutUs from "@/components/about/AboutUs";
 import ContactUs from "@/components/contact/ContactUs";
 import CurvedLoop from "@/components/CurvedLoop";
+import SecurityFramework from "@/components/faq/OurSecurity";
+import WhyYouChooseUs from "@/components/faq/WhyYouChooseUs";
 import LandingPage from "@/components/landing/LandingPage";
 import Portfolios from "@/components/portfolio/Portfolios";
 import OurServices from "@/components/services/OurServices";
@@ -43,6 +45,10 @@ function page() {
       <Timeline data={implementationStepsData} />
       <OurServices />
       <Portfolios />
+      <div className="" id="faq">
+        <WhyYouChooseUs />
+      </div>
+      <SecurityFramework />
       <ContactUs />
     </div>
   );

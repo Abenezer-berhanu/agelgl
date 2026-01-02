@@ -26,7 +26,7 @@ const HorizontalScroll = ({
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-80%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[290vh]">
+    <section ref={targetRef} className="relative h-[290vh] bg-[#F2F2F2]">
       <LazyMotion features={domAnimation}>
         <div className="sticky top-0 flex flex-col h-screen overflow-hidden bg-neutral-50/50 backdrop-blur-sm">
           <div className="shrink-0 px-8 pt-12 pb-4">
@@ -49,7 +49,7 @@ const HorizontalScroll = ({
                     key={idx}
                     initial={{ opacity: 0, scale: 0.9, y: 50 }}
                     whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
+                    viewport={{ amount: 0.5 }}
                     transition={{
                       duration: 1,
                       delay: idx * 0.1,

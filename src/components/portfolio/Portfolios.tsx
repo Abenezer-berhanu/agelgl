@@ -4,7 +4,7 @@ import * as m from "motion/react-m";
 
 function Portfolios() {
   return (
-    <div className="my-20 sm:my-40 px-3 sm:px-20" id="portfolio">
+    <div className="my-20 sm:mt-40 px-3 sm:px-20" id="portfolio">
       <LazyMotion features={domAnimation}>
         <m.h2
           initial={{ opacity: 0, y: -20 }}
