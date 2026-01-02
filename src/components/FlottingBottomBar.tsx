@@ -157,10 +157,10 @@ const Header = () => {
                               {link.name}
                             </h4>
                             <p className="mb-4 text-sm text-gray-500">
-                              Discover our professional services.
+                              {link.subMenuDescription}
                             </p>
                             <Image
-                              src={images.services}
+                              src={link.image}
                               alt="Service"
                               width={300}
                               height={200}

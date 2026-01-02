@@ -60,6 +60,7 @@ export const images = {
     "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766167679/blakcup_slq0ut.jpg",
   intuativeLms:
     "https://res.cloudinary.com/dg6ck04nm/image/upload/v1766166748/intuative_lms_zltwmv.png",
+  faq: "https://res.cloudinary.com/dg6ck04nm/image/upload/v1767386331/FAQs-rafiki_gzfm8t.png",
 };
 
 export const videos = {
@@ -234,6 +235,8 @@ export const navbarLinks = [
   {
     name: "Services",
     href: "/#services", // This will be ignored in the UI logic in favor of the dropdown
+    image: images.services,
+    subMenuDescription: "Discover our professional services.",
     isActive: true,
     // Children added here
     children: [
@@ -278,6 +281,30 @@ export const navbarLinks = [
     name: "Trusted By",
     href: "/#trusted-by",
     isActive: false, // This will be hidden
+  },
+  {
+    name: "FAQ",
+    href: "/#FAQ",
+    image: images.faq,
+    subMenuDescription: "Answers to most raised questions.",
+    isActive: true,
+    // Children added here
+    children: [
+      {
+        name: "Why you choose us",
+        href: "/#why-you-choose-us",
+
+        description:
+          "Every project starts with understanding your business model, not your features.We reduces long term costs, and grows with your real goals.",
+        isActive: true,
+      },
+      {
+        name: "How secure is our infrastructure",
+        href: "/#how-secure-is-our-infrastructure",
+        description: "Security is our top priority.",
+        isActive: true,
+      },
+    ],
   },
   {
     name: "Contact",
