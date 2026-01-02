@@ -146,7 +146,7 @@ export const implementationStepsData = [
           to lay a precise foundation for the entire project.
         </p>
 
-        <OptimizedVideo mp4Src={videos.conceptVideo} />
+        <OptimizedVideo isServices={true} mp4Src={videos.conceptVideo} />
       </div>
     ),
   },
@@ -159,7 +159,7 @@ export const implementationStepsData = [
           user experience.
         </p>
 
-        <OptimizedVideo mp4Src={videos.uiux} />
+        <OptimizedVideo isServices={true} mp4Src={videos.uiux} />
       </div>
     ),
   },
@@ -172,7 +172,7 @@ export const implementationStepsData = [
           agile sprints.
         </p>
 
-        <OptimizedVideo mp4Src={videos.development} />
+        <OptimizedVideo isServices={true} mp4Src={videos.development} />
       </div>
     ),
   },
@@ -184,7 +184,7 @@ export const implementationStepsData = [
           Rigorous testing ensures stability, performance, and security.
         </p>
 
-        <OptimizedVideo mp4Src={videos.testing} />
+        <OptimizedVideo isServices={true} mp4Src={videos.testing} />
       </div>
     ),
   },
@@ -196,7 +196,7 @@ export const implementationStepsData = [
           We deploy and configure production infrastructure for seamless launch.
         </p>
 
-        <OptimizedVideo mp4Src={videos.deployment} />
+        <OptimizedVideo isServices={true} mp4Src={videos.deployment} />
       </div>
     ),
   },
@@ -208,7 +208,7 @@ export const implementationStepsData = [
           Continuous monitoring and proactive maintenance keep systems reliable.
         </p>
 
-        <OptimizedVideo mp4Src={videos.maintenance} />
+        <OptimizedVideo isServices={true} mp4Src={videos.maintenance} />
       </div>
     ),
   },

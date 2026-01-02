@@ -3,8 +3,9 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import "react-phone-input-2/lib/style.css";
 import { Toaster } from "@/components/ui/sonner";
-import Navbar from "@/components/landing/Navbar";
 import { keywords } from "@/lib/exporter";
+import { Navbar } from "@/components/landing/Navbar";
+import Header from "@/components/FlottingBottomBar";
 
 export const revalidate = 2592000;
 
@@ -31,9 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jostSemibold.className} antialiased`}>
+      <body className={`${jostSemibold.className} relative antialiased`}>
         <Navbar />
         {children}
+        <Header />
         <Toaster position="top-center" />
       </body>
     </html>

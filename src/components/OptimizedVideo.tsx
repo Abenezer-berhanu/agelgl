@@ -3,9 +3,10 @@ import { useEffect, useRef } from "react";
 
 interface OptimizedVideoProps {
   mp4Src: string;
+  isServices?: boolean;
 }
 
-export function OptimizedVideo({ mp4Src }: OptimizedVideoProps) {
+export function OptimizedVideo({ isServices, mp4Src }: OptimizedVideoProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
@@ -42,7 +43,7 @@ export function OptimizedVideo({ mp4Src }: OptimizedVideoProps) {
       muted
       loop
       preload="auto"
-      className="w-full h-full object-cover rounded-lg shadow-md"
+      className={`w-full h-full object-cover rounded-lg shadow-md ${isServices && "min-h-[500px] overflow-hidden"}`}
     >
       <source src={mp4Src} type="video/mp4" />
     </video>
