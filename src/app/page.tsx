@@ -20,20 +20,21 @@ function page() {
         </ul>
       </nav>
       <h1 className="sr-only">
-        Software Agency in Ethiopia | Software Development Ethiopia | Software
-        Team | Website Development | App Development | Agency | Software
-        Solutions | Web app Developer | App developer | Website Developer | IT
-        Solutions | Software Company Ethiopia | Software Development Company
-        Ethiopia | Software Development Firm Ethiopia | Software Development
-        Services Ethiopia | Custom Software Development Ethiopia | Software
-        Consulting Ethiopia | IT Consulting Ethiopia | Digital Transformation
-        Ethiopia | Technology Solutions Ethiopia | Software Engineering Ethiopia
-        | Agile Software Development Ethiopia | Full-Stack Development Ethiopia
-        | Mobile App Development Ethiopia | Web Development Ethiopia |
-        Enterprise Software Ethiopia | Cloud Solutions Ethiopia | SaaS
-        Development Ethiopia | E-commerce Solutions Ethiopia | UI/UX Design
-        Ethiopia | Software Maintenance Ethiopia | Software Support Ethiopia |
-        IT Services Ethiopia
+        enterprise app development firm | web and mobile app development agency
+        | custom software development company | Software Agency in Ethiopia |
+        Software Development Ethiopia | Software Team | Website Development |
+        App Development | Agency | Software Solutions | Web app Developer | App
+        developer | Website Developer | IT Solutions | Software Company Ethiopia
+        | Software Development Company Ethiopia | Software Development Firm
+        Ethiopia | Software Development Services Ethiopia | Custom Software
+        Development Ethiopia | Software Consulting Ethiopia | IT Consulting
+        Ethiopia | Digital Transformation Ethiopia | Technology Solutions
+        Ethiopia | Software Engineering Ethiopia | Agile Software Development
+        Ethiopia | Full-Stack Development Ethiopia | Mobile App Development
+        Ethiopia | Web Development Ethiopia | Enterprise Software Ethiopia |
+        Cloud Solutions Ethiopia | SaaS Development Ethiopia | E-commerce
+        Solutions Ethiopia | UI/UX Design Ethiopia | Software Maintenance
+        Ethiopia | Software Support Ethiopia | IT Services Ethiopia
       </h1>
       <LandingPage />
 

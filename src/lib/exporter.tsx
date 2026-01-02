@@ -327,6 +327,9 @@ export const navbarLinks = [
 
 export const keywords: string[] = [
   "software company for small business",
+  "custom software development company",
+  "web and mobile app development agency",
+  "enterprise app development firm",
   "app development company",
   "website and mobile app developers",
   "custom software solutions for business",
